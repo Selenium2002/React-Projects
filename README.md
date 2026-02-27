@@ -1,3 +1,62 @@
+# Create a local project
+
+1. Download (Windows installer MSI) Node.js from this site https://nodejs.org/.
+
+2. Run that MSI installer
+
+3. Check if MSI installer is insalled or not yet by typing " node -v " , " npm -v "on your terminal
+
+4. Get in your directory which you'll create your local react project 
+and open cmd, then write " npx create-react-app project_name "
+
+5. Type code "project_name" in the terminal
+
+6. You can delete the following files in public dir(logo192.png, logo512.png) and src dir(index.css, App.test.js, logo.svg, reportWebVitals.js, setupTests.js)
+
+7. Comment that element in index.html`<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />` not to give you an error for not finding logo192.svg that you would already have deleted
+
+8. Open the terminal of your editor and type "npm start"
+
+9. There will be about 3 or 4 errors that you should git rid of by heading to each location and delete any code which is related to the files that had been already deleted
+
+10. Write these three lines in git
+git config --global core.autocrlf true
+git config --global core.autocrlf input
+git config --global core.autocrlf false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
