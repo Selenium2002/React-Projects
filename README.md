@@ -13,43 +13,21 @@ and open cmd, then write " npx create-react-app project_name "
 
 6. You can delete the following files in public dir(logo192.png, logo512.png) and src dir(index.css, App.test.js, logo.svg, reportWebVitals.js, setupTests.js)
 
-7. Comment that element in index.html`<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />` not to give you an error for not finding logo192.svg that you would already have deleted
 
-8. Open the terminal of your editor and type "npm start"
+7. Open the terminal of your editor and type "npm start"
 
-9. There will be about 3 or 4 errors that you should git rid of by heading to each location and delete any code which is related to the files that had been already deleted
+8. There will be about 3 or 4 errors that you should git rid of by heading to each location and delete any code which is related to the files that had been already deleted
 
-10. Write these three lines in git
+9. Write these three lines in git
+git config --global user.name "your username"
+git config --global user.email "your email"
 git config --global core.autocrlf true
 git config --global core.autocrlf input
 git config --global core.autocrlf false
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+10. install CSS frameworks such as
+bootstrap by typing "npm install react-bootstrap bootstrap" in the terminal
+tailwindcss by typing "npm install tailwindcss @tailwindcss/postcss postcss"
 
 
 
