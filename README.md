@@ -27,13 +27,7 @@ git config --global core.autocrlf false
 
 10. install CSS frameworks such as
 bootstrap by typing "npm install react-bootstrap bootstrap" in the terminal
-tailwindcss by typing "npm install tailwindcss @tailwindcss/postcss postcss"
-
-
-
-
-
-
+tailwindcss by typing "npm install tailwindcss @tailwindcss/postcss postcss" in the terminal
 
 # Getting Started with Create React App
 
